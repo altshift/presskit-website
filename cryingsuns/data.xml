@@ -1,0 +1,198 @@
+<!-- # Product/Game -->
+
+<!--
+  **This is your product or game page**. It should focus on _ONLY_ one product. This is not a replacement for your product's website, but a quick way for the press to know it faster.
+
+  If you don't have a `data.xml` yet, the easiest way to start is to run this command in your presskit folder:
+
+  ```bash
+  presskit new -t product
+  ```
+
+  Then, open the generated `data.xml` file and fill the blanks while following this guide.
+
+  <hr>
+
+  For your company' `data.xml`, [refer to the company documentation](../company/).
+
+  <hr>
+-->
+
+<!-- Don't forget to set your XML header correctly. -->
+<?xml version="1.0" encoding="utf-8"?>
+
+<!--
+  Use a `<product>` or `<game>` tag.
+-->
+<product>
+
+  <!-- This guide is not yet written. -->
+  <title>My Super Game</title>
+  <website>http://pizzaburger.studio/mysupergame</website>
+
+  <press-copy-request>
+    http://pizzaburger.studio/mysupergame/request/
+  </press-copy-request>
+
+  <release-dates>
+    <release-date>04 Feb, 2016</release-date>
+    <release-date>10 Oct, 2016</release-date>
+  </release-dates>
+
+  <platforms>
+    <platform>
+      <name>PC / Mac</name>
+      <link>http://itch.io/</link>
+    </platform>
+    <platform>
+      <name>Steam</name>
+      <link>http://steampowered.com/</link>
+    </platform>
+  </platforms>
+
+  <prices>
+    <price>
+      <currency>EUR</currency>
+      <value>20</value>
+    </price>
+    <price>
+      <currency>USD</currency>
+      <value>20</value>
+    </price>
+    <price>
+      <currency>GBP</currency>
+      <value>16</value>
+    </price>
+    <price>
+      <currency>JPY</currency>
+      <value>2300</value>
+    </price>
+  </prices>
+
+  <description>
+    Here goes a quick description of your product or game. Be concise and explain in very few words the concept or the gameplay and why it's really cool and why everyone should use or play it.
+  </description>
+
+  <history>
+    Add some storytelling here. Not the scenario of your game, but rather some backgrounds behind the creation process: why are you making this game? Most projects starts with a cool story.
+  </history>
+
+  <features>
+    <feature>List some "Key Sellings Points" to grab player's attention.</feature>
+    <feature>Don't be too generic ("pixel art graphics!"), don't be too pretentious ("most incredible game experience!").</feature>
+    <feature>Also, people like numbers, so you can add some (450 weapons, hundreds of levels, dozens of hours of playtime!).</feature>
+    <feature>Need ideas? Maybe explain some game modes?</feature>
+    <feature>It would be a nice place to say something about multiplayer, if you have some.</feature>
+    <feature>Have you translated your game? (You probably should btw.)</feature>
+  </features>
+
+  <trailers>
+    <trailer>
+      <name>Release Trailer</name>
+      <youtube>EtXajayBLzw</youtube>
+    </trailer>
+    <trailer>
+      <name>Gameplay Video #2</name>
+      <youtube>EPNK1j3TMjU</youtube>
+    </trailer>
+    <trailer>
+      <name>Early Access Trailer</name>
+      <youtube>EtyQMcc19xY</youtube>
+    </trailer>
+  </trailers>
+
+  <widgets>
+    <appstore>950812012</appstore>
+    <playstore>com.noodlecake.altosadventure</playstore>
+    <steam>347160</steam>
+    <humble>steredenn/7SDLfk23hw</humble>
+    <itch>27992</itch>
+    <bandcamp>1135613467</bandcamp>
+  </widgets>
+
+  <awards>
+    <award>
+      <description>Game of the year without a doubt</description>
+      <info>Saint-Père-Marc-En-Poulet (France), 04 February, 2016</info>
+    </award>
+    <award>
+      <description>Best soundtrack</description>
+      <info>A great game festival (World), 01 October, 2015</info>
+    </award>
+    <award>
+      <description>Best MYGAMENGINE game</description>
+      <info>Deep into the woods (Forest), 31 March, 2014</info>
+    </award>
+  </awards>
+
+  <quotes>
+    <quote>
+      <description>This is my favorite game of all time.</description>
+      <name>Mum</name>
+      <website>At home</website>
+      <link>http://at.home/</link>
+    </quote>
+    <quote>
+      <description>A very serious quote you're very proud of by someone you respect.</description>
+      <name>Master</name>
+      <website>Master's website</website>
+      <link>http://mast.er/</link>
+    </quote>
+    <quote>
+      <description>10/10 would play it again and again.</description>
+      <name>A friendly anonymous Steam reviewer</name>
+      <website>Steam review</website>
+      <link>http://steam.review/</link>
+    </quote>
+  </quotes>
+
+  <additionals>
+    <additional>
+      <title>Original Soundtrack (OST)</title>
+      <description>Composed by an awesome musician. Listen for free, download for $3 at</description>
+      <link>http://zandernoriega.bandcamp.com/album/steredenn-original-soundtrack</link>
+    </additional>
+    <additional>
+      <title>Release announcement</title>
+      <description>Announcement are exciting, so we usually make blog posts or news about it on</description>
+      <link>http://pixelnest.io/journal/</link>
+    </additional>
+  </additionals>
+
+  <credits>
+    <credit>
+      <person>Krokmou</person>
+      <role>Bot Leader, Game Designer, Pixelnest Studio</role>
+    </credit>
+    <credit>
+      <person>Hiccup</person>
+      <role>Developer, Pixelnest Studio</role>
+    </credit>
+    <credit>
+      <person>Astrid</person>
+      <website>http://www.astridsupergame.com</website>
+      <role>Musician, Freelancer</role>
+    </credit>
+  </credits>
+
+  <contacts>
+    <contact>
+      <name>Inquiries</name>
+      <mail>mysupergame@pizzaburger.studio</mail>
+    </contact>
+    <contact>
+      <name>Twitter</name>
+      <link>https://twitter.com/pizzaburgerstudio</link>
+    </contact>
+    <contact>
+      <name>Facebook</name>
+      <link>https://facebook.com/pizzaburgerstudio</link>
+    </contact>
+    <contact>
+      <name>Web</name>
+      <link>http://mysupergame.pizzaburger.studio/</link>
+    </contact>
+  </contacts>
+
+<!-- All done! 🍾 -->
+</product>
