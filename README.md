@@ -3,7 +3,8 @@ Utilise le projet https://github.com/pixelnest/presskit.html
 Site  statique pour les presskits des jeux altshift
 
 # Installation
-* Installer https://nodejs.org/en/
+* Installer https://nodejs.org/en/ version 6
+* npm install -g presskit
 * Une fois installé cloner le projet depuis https://github.com/altshift/presskit-website.git (avec gitkraken par exemple )
 * le site est visible en ouvrant directement l'index.html dans docs
 
