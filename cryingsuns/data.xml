@@ -145,20 +145,20 @@ But you must leave Gehenna now.... for time has almost run out.
       <link>http://steam.review/</link>
     </quote>
   </quotes>
-
+-->
   <additionals>
     <additional>
-      <title>Original Soundtrack (OST)</title>
-      <description>Composed by an awesome musician. Listen for free, download for $3 at</description>
-      <link>http://zandernoriega.bandcamp.com/album/steredenn-original-soundtrack</link>
+      <title>Our National Partner</title>
+      <description>Centre National de Cinématographie: </description>
+      <link>http://www.cnc.fr/</link>
     </additional>
     <additional>
-      <title>Release announcement</title>
-      <description>Announcement are exciting, so we usually make blog posts or news about it on</description>
-      <link>http://pixelnest.io/journal/</link>
+      <title>Our Local Partner</title>
+      <description>Région Languedoc Roussillon / Occitanie: </description>
+      <link>http://www.languedocroussillon.fr/</link>
     </additional>
   </additionals>
--->
+
   <credits>
     <credit>
       <person>Julien COTRET</person>
