@@ -27,65 +27,64 @@
 <product>
 
   <!-- This guide is not yet written. -->
-  <title>My Super Game</title>
-  <website>http://pizzaburger.studio/mysupergame</website>
+  <title>Crying Suns</title>
+  <website>http://www.cryingsuns.com/</website>
 
   <press-copy-request>
     http://pizzaburger.studio/mysupergame/request/
   </press-copy-request>
 
   <release-dates>
-    <release-date>04 Feb, 2016</release-date>
-    <release-date>10 Oct, 2016</release-date>
+  <release-date>Beta version: Q3 2018</release-date>
+  <release-date>Final version: Q4 2018</release-date>
+  <release-date>Tablet version: Q1 2019</release-date>
   </release-dates>
 
   <platforms>
     <platform>
-      <name>PC / Mac</name>
-      <link>http://itch.io/</link>
-    </platform>
-    <platform>
-      <name>Steam</name>
-      <link>http://steampowered.com/</link>
+      <name> Steam</name>
+      <!--<link>http://www.cryingsuns.com/</link>-->
+	  <name> iPad</name>
+      <!--<link>http://www.cryingsuns.com/</link>-->
     </platform>
   </platforms>
 
   <prices>
     <price>
       <currency>EUR</currency>
-      <value>20</value>
-    </price>
-    <price>
-      <currency>USD</currency>
-      <value>20</value>
-    </price>
-    <price>
-      <currency>GBP</currency>
-      <value>16</value>
-    </price>
-    <price>
-      <currency>JPY</currency>
-      <value>2300</value>
+      <value>15 to 20</value>
     </price>
   </prices>
 
+
   <description>
-    Here goes a quick description of your product or game. Be concise and explain in very few words the concept or the gameplay and why it's really cool and why everyone should use or play it.
+    CRYING SUNS is a rogue-lite and tactical game where you explore a dying galaxy as a space fleet commander. 
+	As a deep story-driven game experience, each successful run will uncover a part of the underlying truth about the fall of the galactic Empire.
   </description>
 
   <history>
-    Add some storytelling here. Not the scenario of your game, but rather some backgrounds behind the creation process: why are you making this game? Most projects starts with a cool story.
+	After 700 years of peace and prosperity, the Galactic Empire has suddenly been shattered into pieces.
+
+The OMNIs, god-like machines which did everything for their human masters, have mysteriously shut down. And humankind, having long since lost the ability to survive on its own, is dangerously close to extinction.
+
+But somewhere in a far corner of the Galaxy is Gehenna, a planet of ice and rock and a top-secret facility that is the pinnacle of Imperial Tech and also humanity’s last chance.
+
+You are a clone of Admiral Ellys Idaho, a weapon fashioned from flesh, the best Imperial Admiral ever to battle in the stars and you have just been awoken on this planet by its strange and darkly-humorous Guardian, Kaliban, the last functional OMNI to exist.  
+
+Your mission: skillfully command a battleship through the Empire's now chaotic, violent clusters ––where one wrong move could be your last–– as you try to reactivate the OMNIs and save the future of all humankind.
+
+But you must leave Gehenna now.... for time has almost run out.
+
   </history>
 
   <features>
-    <feature>List some "Key Sellings Points" to grab player's attention.</feature>
-    <feature>Don't be too generic ("pixel art graphics!"), don't be too pretentious ("most incredible game experience!").</feature>
-    <feature>Also, people like numbers, so you can add some (450 weapons, hundreds of levels, dozens of hours of playtime!).</feature>
-    <feature>Need ideas? Maybe explain some game modes?</feature>
-    <feature>It would be a nice place to say something about multiplayer, if you have some.</feature>
-    <feature>Have you translated your game? (You probably should btw.)</feature>
+    <feature>Space exploration in a procedural generated universe.</feature>
+    <feature>Tactical fights between BattleShips and their squadrons fleets.</feature>
+    <feature>A deep and dramatic storyline inspired by Foundation (Asimov I.).</feature>
+    <feature>A mix between pixelart style graphics, 3D and HD special effects.</feature>
+    <feature>Prepare to die very often, it's a roguelite game... And it's a hard one...</feature>
   </features>
-
+<!--
   <trailers>
     <trailer>
       <name>Release Trailer</name>
@@ -158,39 +157,66 @@
       <link>http://pixelnest.io/journal/</link>
     </additional>
   </additionals>
-
+-->
   <credits>
     <credit>
-      <person>Krokmou</person>
-      <role>Bot Leader, Game Designer, Pixelnest Studio</role>
+      <person>Julien COTRET</person>
+      <role>Game producer, scenarist, developer</role>
     </credit>
     <credit>
-      <person>Hiccup</person>
-      <role>Developer, Pixelnest Studio</role>
+      <person>Vincent NOEL</person>
+      <role>Game designer, developer</role>
     </credit>
     <credit>
-      <person>Astrid</person>
-      <website>http://www.astridsupergame.com</website>
-      <role>Musician, Freelancer</role>
+      <person>Frédéric LOPEZ</person>
+      <role>Art director</role>
+    </credit>
+    <credit>
+      <person>Mathias BAGLIONI</person>
+      <role>UX/UI designer, developer</role>
+    </credit>
+    <credit>
+      <person>Christophe SAUVEUR</person>
+      <role>Lead developer</role>
+    </credit>
+    <credit>
+      <person>Bertrand MARGOGNE</person>
+      <role>Developer</role>
+    </credit>
+    <credit>
+      <person>Uriel LACROIX</person>
+      <role>Graphist</role>
+    </credit>
+    <credit>
+      <person>Louis-Julien BERTHE</person>
+      <role>Graphist</role>
+    </credit>
+    <credit>
+      <person>Ian REILEY</person>
+      <role>Scenarist</role>
+    </credit>
+    <credit>
+      <person>Aymeric SCHWARTZ</person>
+      <role>Musician and sound designer</role>
     </credit>
   </credits>
 
   <contacts>
     <contact>
       <name>Inquiries</name>
-      <mail>mysupergame@pizzaburger.studio</mail>
+      <mail>idaho@cryingsuns.com</mail>
     </contact>
     <contact>
       <name>Twitter</name>
-      <link>https://twitter.com/pizzaburgerstudio</link>
+      <link>https://twitter.com/cryingsuns</link>
     </contact>
     <contact>
       <name>Facebook</name>
-      <link>https://facebook.com/pizzaburgerstudio</link>
+      <link>https://facebook.com/cryingsuns</link>
     </contact>
     <contact>
       <name>Web</name>
-      <link>http://mysupergame.pizzaburger.studio/</link>
+      <link>http://www.cryingsuns.com</link>
     </contact>
   </contacts>
 

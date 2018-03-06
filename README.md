@@ -10,9 +10,19 @@ Site  statique pour les presskits des jeux altshift
 
 # Travailler sur le projet
 * !IMPORTANT! travailler uniquement sur une branche, toutes les modifications poussées sur master irons en prod. tester et ne merge que lorsqu'on est sûr 
-* Aller dans le repertoire du projet et faire presskit build --watch -o docs  (pour que chaque modif se voie directement)
+* Aller dans le repertoire du projet et faire "presskit build --watch -o docs"  (pour que chaque modif se voie directement)
 * Pour modifier le site modifier uniquement les xml (racine pour l'entreprise et par folder pour les projet) (pour plus d'info voir la doc de https://github.com/pixelnest/presskit.html)
 * Aller sur localhost:8080 pour voir le résultat
+
+# Mettre en production
+* Edition et modification de fichier xml
+* vérifier qu'ils sont bien tous sauvegardés
+* aller sur gitcraken
+* zone de droite -> clic sur stage all changes
+* ajouter un message de commit 
+* clic sur bouton commit
+* clic sur bouton push (barre d'outil supérieure)
+* résultat disponible sur https://altshift.github.io/presskit-website/
 
 ## Ajouter un produit
 
