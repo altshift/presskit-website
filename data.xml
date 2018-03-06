@@ -204,15 +204,15 @@
   <credits>
     <credit>
       <person>Frédéric LOPEZ</person>
-      <role>Founder, CEO, Art director</role>
+      <role>Founder, CEO, Art Director</role>
     </credit>
     <credit>
       <person>Julien COTRET</person>
-      <role>Founder, CTO, developer</role>
+      <role>Founder, CTO, Developer</role>
     </credit>
     <credit>
       <person>Vincent NOEL</person>
-      <role>Founder, Developer</role>
+      <role>Founder, Game Designer, Developer</role>
     </credit>
     <credit>
       <person>Mathias BAGLIONI</person>
@@ -228,11 +228,15 @@
     </credit>
 	<credit>
       <person>Uriel LACROIX</person>
-      <role>Graphist</role>
+      <role>Graphist and 2D Animator</role>
     </credit>
 	<credit>
       <person>Louis-Julien BERTHE</person>
-      <role>Graphist</role>
+      <role>Graphist and 2D Animator</role>
+    </credit>
+	<credit>
+      <person>Caroline IMBERT</person>
+      <role>Communication</role>
     </credit>
 	<credit>
       <person>Aymeric SCHWARTZ</person>

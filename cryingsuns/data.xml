@@ -30,14 +30,15 @@
   <title>Crying Suns</title>
   <website>http://www.cryingsuns.com/</website>
 
+<!--
   <press-copy-request>
     http://pizzaburger.studio/mysupergame/request/
   </press-copy-request>
+-->
 
   <release-dates>
-  <release-date>Beta version: Q3 2018</release-date>
-  <release-date>Final version: Q4 2018</release-date>
-  <release-date>Tablet version: Q1 2019</release-date>
+  <release-date>Beta version: S2 2018</release-date>
+  <release-date>Final version: Late 2018/ Early 2019</release-date>
   </release-dates>
 
   <platforms>
@@ -80,7 +81,7 @@ But you must leave Gehenna now.... for time has almost run out.
   <features>
     <feature>Space exploration in a procedural generated universe.</feature>
     <feature>Tactical fights between BattleShips and their squadrons fleets.</feature>
-    <feature>A deep and dramatic storyline inspired by Foundation (Asimov I.).</feature>
+    <feature>A deep and dramatic storyline inspired by our favorite S-F universe (Foundation, Dune).</feature>
     <feature>A mix between pixelart style graphics, 3D and HD special effects.</feature>
     <feature>Prepare to die very often, it's a roguelite game... And it's a hard one...</feature>
   </features>
@@ -161,23 +162,23 @@ But you must leave Gehenna now.... for time has almost run out.
   <credits>
     <credit>
       <person>Julien COTRET</person>
-      <role>Game producer, scenarist, developer</role>
+      <role>Game Producer, Scenarist, Developer</role>
     </credit>
     <credit>
       <person>Vincent NOEL</person>
-      <role>Game designer, developer</role>
+      <role>Game Designer, Lead Developer</role>
     </credit>
     <credit>
       <person>Frédéric LOPEZ</person>
-      <role>Art director</role>
+      <role>Art Director</role>
     </credit>
     <credit>
       <person>Mathias BAGLIONI</person>
-      <role>UX/UI designer, developer</role>
+      <role>UX/UI Designer, Developer</role>
     </credit>
     <credit>
       <person>Christophe SAUVEUR</person>
-      <role>Lead developer</role>
+      <role>Lead Developer</role>
     </credit>
     <credit>
       <person>Bertrand MARGOGNE</person>
@@ -185,11 +186,15 @@ But you must leave Gehenna now.... for time has almost run out.
     </credit>
     <credit>
       <person>Uriel LACROIX</person>
-      <role>Graphist</role>
+      <role>Graphist and 2D Animator</role>
     </credit>
     <credit>
       <person>Louis-Julien BERTHE</person>
-      <role>Graphist</role>
+      <role>Graphist and 2D Animator</role>
+    </credit>
+	<credit>
+      <person>Caroline IMBERT</person>
+      <role>QA and Communication</role>
     </credit>
     <credit>
       <person>Ian REILEY</person>
@@ -204,7 +209,7 @@ But you must leave Gehenna now.... for time has almost run out.
   <contacts>
     <contact>
       <name>Inquiries</name>
-      <mail>idaho@cryingsuns.com</mail>
+      <mail>contact@cryingsuns.com</mail>
     </contact>
     <contact>
       <name>Twitter</name>
