@@ -38,7 +38,7 @@
 
   <release-dates>
   <release-date>Beta version: S2 2018</release-date>
-  <release-date>Final version: Late 2018/ Early 2019</release-date>
+  <release-date>Final version: Late 2018 / Early 2019</release-date>
   </release-dates>
 
   <platforms>
@@ -53,7 +53,11 @@
   <prices>
     <price>
       <currency>EUR</currency>
-      <value>15 to 20</value>
+      <value>20</value>
+    </price>
+	  <price>
+      <currency>USD</currency>
+      <value>20</value>
     </price>
   </prices>
 
@@ -84,23 +88,16 @@ But you must leave Gehenna now.... for time has almost run out.
     <feature>A deep and dramatic storyline inspired by our favorite S-F universe (Foundation, Dune).</feature>
     <feature>A mix between pixelart style graphics, 3D and HD special effects.</feature>
     <feature>Prepare to die very often, it's a roguelite game... And it's a hard one...</feature>
+	<feature>(Demo already available on the website)</feature>
   </features>
-<!--
+
   <trailers>
     <trailer>
-      <name>Release Trailer</name>
-      <youtube>EtXajayBLzw</youtube>
-    </trailer>
-    <trailer>
-      <name>Gameplay Video #2</name>
-      <youtube>EPNK1j3TMjU</youtube>
-    </trailer>
-    <trailer>
-      <name>Early Access Trailer</name>
-      <youtube>EtyQMcc19xY</youtube>
+      <name>Kickstarter Trailer</name>
+      <youtube>An317hx2LQA</youtube>
     </trailer>
   </trailers>
-
+<!--
   <widgets>
     <appstore>950812012</appstore>
     <playstore>com.noodlecake.altosadventure</playstore>
@@ -148,6 +145,11 @@ But you must leave Gehenna now.... for time has almost run out.
 -->
   <additionals>
     <additional>
+      <title>Our Crowdfunding Partner</title>
+      <description>Kickstarter: </description>
+      <link>https://www.kickstarter.com/</link>
+    </additional>
+	<additional>
       <title>Our National Partner</title>
       <description>Centre National de Cinématographie: </description>
       <link>http://www.cnc.fr/</link>
@@ -208,8 +210,8 @@ But you must leave Gehenna now.... for time has almost run out.
 
   <contacts>
     <contact>
-      <name>Inquiries</name>
-      <mail>contact@cryingsuns.com</mail>
+      <name>WEBSITE / DEMO ACCESS</name>
+      <link>http://www.cryingsuns.com</link>
     </contact>
     <contact>
       <name>Twitter</name>
@@ -219,9 +221,9 @@ But you must leave Gehenna now.... for time has almost run out.
       <name>Facebook</name>
       <link>https://facebook.com/cryingsuns</link>
     </contact>
-    <contact>
-      <name>Web</name>
-      <link>http://www.cryingsuns.com</link>
+	<contact>
+      <name>Inquiries</name>
+      <mail>contact@cryingsuns.com</mail>
     </contact>
   </contacts>
 
