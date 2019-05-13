@@ -35,16 +35,22 @@
     http://pizzaburger.studio/mysupergame/request/
   </press-copy-request>
 -->
+<partners>
+    <partner>
+      <type>Publisher</type>
+      <title>Humble Bundle</title>
+      <website>https://www.humblebundle.com/publishing</website>
+    </partner>
+</partners>
 
-  <release-dates>
-  <release-date>Beta version: S2 2018</release-date>
-  <release-date>Final version: Late 2018 / Early 2019</release-date>
+    <release-dates>
+    <release-date>2019</release-date>
   </release-dates>
 
   <platforms>
     <platform>
       <name> Steam</name>
-      <!--<link>http://www.cryingsuns.com/</link>-->
+        <link>https://store.steampowered.com/app/873940/Crying_Suns/</link>
 	  <name> iPad</name>
       <!--<link>http://www.cryingsuns.com/</link>-->
     </platform>
@@ -63,8 +69,7 @@
 
 
   <description>
-    CRYING SUNS is a rogue-lite and tactical game where you explore a dying galaxy as a space fleet commander. 
-	As a deep story-driven game experience, each successful run will uncover a part of the underlying truth about the fall of the galactic Empire.
+    Crying Suns is a tactical rogue-lite that puts you in the role of a space fleet commander as you explore a mysteriously fallen empire. In this story-driven experience inspired by Dune and Foundation, each successful run will uncover the truth about the Empire... and yourself as well.
   </description>
 
   <history>
@@ -85,10 +90,10 @@ But you must leave Gehenna now.... for time has almost run out.
   <features>
     <feature>Space exploration in a procedural generated universe.</feature>
     <feature>Tactical fights between BattleShips and their squadrons fleets.</feature>
-    <feature>A deep and dramatic storyline inspired by our favorite S-F universe (Foundation, Dune).</feature>
+    <feature>A deep and dramatic storyline inspired by our favorite Sci-Fi universe (Foundation, Dune).</feature>
     <feature>A mix between pixelart style graphics, 3D and HD special effects.</feature>
     <feature>Prepare to die very often, it's a roguelite game... And it's a hard one...</feature>
-	<feature>(Demo already available on the website)</feature>
+	<feature>Free demo available on Steam</feature>
   </features>
 
   <trailers>
@@ -97,17 +102,18 @@ But you must leave Gehenna now.... for time has almost run out.
       <youtube>An317hx2LQA</youtube>
     </trailer>
   </trailers>
-<!--
+
   <widgets>
-    <appstore>950812012</appstore>
-    <playstore>com.noodlecake.altosadventure</playstore>
-    <steam>347160</steam>
-    <humble>steredenn/7SDLfk23hw</humble>
-    <itch>27992</itch>
+    
+    <steam>873940</steam>
+    <!-- <itch>27992</itch>
+    <humble>crying-suns</humble>
     <bandcamp>1135613467</bandcamp>
+    <appstore>950812012</appstore>
+    <playstore>com.noodlecake.altosadventure</playstore> -->
   </widgets>
 
-  <awards>
+  <!-- <awards>
     <award>
       <description>Game of the year without a doubt</description>
       <info>Saint-Père-Marc-En-Poulet (France), 04 February, 2016</info>
@@ -120,30 +126,35 @@ But you must leave Gehenna now.... for time has almost run out.
       <description>Best MYGAMENGINE game</description>
       <info>Deep into the woods (Forest), 31 March, 2014</info>
     </award>
-  </awards>
+  </awards> -->
 
   <quotes>
     <quote>
-      <description>This is my favorite game of all time.</description>
-      <name>Mum</name>
-      <website>At home</website>
-      <link>http://at.home/</link>
+      <description>Just from that demo, I’m really digging it! I love the art, which blends 2D pixel imagery with 3D models, and the more sedate pacing and variety of experiences made me feel very much in command of such a big ship.</description>
+      <name>Luke Plunkett</name>
+      <website>Kotaku</website>
+      <link>https://kotaku.com/ftl-fans-crying-suns-is-here-for-you-1827644199</link>
     </quote>
     <quote>
-      <description>A very serious quote you're very proud of by someone you respect.</description>
-      <name>Master</name>
-      <website>Master's website</website>
-      <link>http://mast.er/</link>
+      <description>It looks excellent, and aims to blend the tight resource management and decision making of FTL with more freeform exploration, putting a bigger emphasis on story than FTL did.</description>
+      <name>Samuel Horti</name>
+      <website>PC Gamer</website>
+      <link>https://www.pcgamer.com/crying-suns-smashes-kickstarter-goal-aims-to-be-ftl-but-with-more-story/</link>
     </quote>
     <quote>
-      <description>10/10 would play it again and again.</description>
-      <name>A friendly anonymous Steam reviewer</name>
-      <website>Steam review</website>
-      <link>http://steam.review/</link>
+      <description>After playing the demo, I feel this is one to keep an eye on.</description>
+      <name>Dominic Tarason</name>
+      <website>Rock, Paper, Shotgun</website>
+      <link>https://www.rockpapershotgun.com/2018/07/12/crying-suns-kickstarter-demo-ftl-like/</link>
     </quote>
   </quotes>
--->
+
   <additionals>
+    <additional>
+      <title>Our Publisher</title>
+      <description>Humble Bundle: </description>
+      <link>https://www.humblebundle.com/publishing</link>
+    </additional>
     <additional>
       <title>Our Crowdfunding Partner</title>
       <description>Kickstarter: </description>
@@ -157,7 +168,7 @@ But you must leave Gehenna now.... for time has almost run out.
     <additional>
       <title>Our Local Partner</title>
       <description>Région Languedoc Roussillon / Occitanie: </description>
-      <link>http://www.languedocroussillon.fr/</link>
+      <link>https://www.laregion.fr/</link>
     </additional>
   </additionals>
 
@@ -196,7 +207,7 @@ But you must leave Gehenna now.... for time has almost run out.
     </credit>
 	<credit>
       <person>Caroline IMBERT</person>
-      <role>QA and Communication</role>
+      <role>Playtest and Communication</role>
     </credit>
     <credit>
       <person>Ian REILEY</person>
@@ -206,15 +217,19 @@ But you must leave Gehenna now.... for time has almost run out.
       <person>Aymeric SCHWARTZ</person>
       <role>Musician and sound designer</role>
     </credit>
+    <credit>
+      <person>Sara JAFAAR</person>
+      <role>QA tester and playtest assistant</role>
+    </credit>
   </credits>
 
   <contacts>
     <contact>
-      <name>WEBSITE / DEMO ACCESS</name>
+      <name>Website</name>
       <link>http://www.cryingsuns.com</link>
     </contact>
     <contact>
-      <name>Steam page</name>
+      <name>Steam page / Demo access</name>
       <link>https://store.steampowered.com/app/873940/Crying_Suns</link>
     </contact>
     <contact>
