@@ -152,6 +152,21 @@ body {
 }
 
 /* ---------------------------------------------------------- *\
+ * Micro Components.
+\* ---------------------------------------------------------- */
+
+.clearfix::after {
+  display: table;
+  clear: both;
+
+  content: " ";
+}
+
+.capitalize {
+  text-transform: capitalize;
+}
+
+/* ---------------------------------------------------------- *\
  * Components - Links.
 \* ---------------------------------------------------------- */
 
@@ -240,6 +255,48 @@ a:hover {
 }
 
 /* ---------------------------------------------------------- *\
+ * Nav - Hamburger.
+\* ---------------------------------------------------------- */
+
+.nav__toggle {
+  display: none;
+
+  margin: 15px 0;
+  padding: 0 15px;
+}
+
+.nav__toggle .button {
+  display: block;
+
+  height: 30px;
+}
+
+/* Nav list variant for hamburger feature. */
+.nav__list--slider {
+  overflow-y: hidden;
+
+  max-height: 0;
+
+  -webkit-transition: max-height 0.5s ease-in-out;
+     -moz-transition: max-height 0.5s ease-in-out;
+       -o-transition: max-height 0.5s ease-in-out;
+          transition: max-height 0.5s ease-in-out;
+}
+
+
+@media (min-width: 800px) {
+  .nav__toggle {
+    /* Always hide the button on big screens. */
+    display: none !important;
+  }
+
+  .nav__list--slider {
+    /* Always show the list on big screens. So disable slider. */
+    max-height: unset !important;
+  }
+}
+
+/* ---------------------------------------------------------- *\
  * Components - Block.
 \* ---------------------------------------------------------- */
 
@@ -308,7 +365,41 @@ a:hover {
   width: 100%;
 }
 
-@media (min-width: 800px) {
+.gallery__item a[href$=".gif"] {
+  position: relative;
+
+  display: block;
+}
+
+.gallery__item a[href$=".gif"]:focus:active {
+  outline: none;
+}
+
+.gallery__item a[href$=".gif"]::after {
+  position: absolute;
+  z-index: 1;
+  top: 0;
+  left: 0;
+
+  display: none;
+
+  width: 100%;
+  height: 100%;
+  padding: 20px;
+
+  background: rgba(0, 0, 0, 0.25);
+
+  content: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACgAAAAoCAMAAAC7IEhfAAAABGdBTUEAALGPC/xhBQAAAFFQTFRFAAAA/////////////////////////////Pz8/Pz8/Pz8/f39/f39/f39/f39/f39/f39/Pz8/Pz8/Pz8/Pz8/v7+/f39/f39/f39/f39/f395zF2nQAAABt0Uk5TAAEJCxQeIEpXYGFnc3V2d5WarK2/xNLb3N3m8ZFI2gAAAOlJREFUOMuVlckOgzAMRAdIWUrKUgK4/v8P7QWVLA64c0RPY9mxByBQ3U/LSrQuU18jKzM49uQGI2KVJY5Etkq5ZmNBWxNhheWMbOFz5cxZzaXnd8Exz6en5UvZXx98o6OjarsDtyop/Hrnixt/zm3x/AggGQCj/6UFHpLpAMBFICRTB9Qcg6JpjV4ABdMekwSmphMWGUTRBaYL1gwYma6gLBiYEvYr8HTZ9aXzzVDYjHo88sA7SgaufkJhKRI7Zgdg0K5ZtLiC3bG46lPQH5f6XPUBoI8UdUjpY08fpH9EMwAzqsL+5vfxBcKnb1vURTbUAAAAAElFTkSuQmCC");
+
+  align-items: center;
+  justify-content: center;
+}
+
+.gallery__item a[href$=".gif"].show-overlay::after {
+  display: flex;
+}
+
+@media (min-width: 500px) {
   .gallery__item {
     width: 50%;
   }
@@ -418,6 +509,10 @@ a:hover {
 
 .widget--itch {
   height: 167px;
+}
+
+.widget--gamejolt {
+  height: 245px;
 }
 
 .widget--bandcamp {
