@@ -44,7 +44,7 @@
 </partners>
 
     <release-dates>
-    <release-date>2019</release-date>
+    <release-date>September 2019</release-date>
   </release-dates>
 
   <platforms>
@@ -59,17 +59,17 @@
   <prices>
     <price>
       <currency>EUR</currency>
-      <value>20</value>
+      <value>20,99</value>
     </price>
 	  <price>
       <currency>USD</currency>
-      <value>20</value>
+      <value>24,99</value>
     </price>
   </prices>
 
 
   <description>
-    Crying Suns is a tactical rogue-lite that puts you in the role of a space fleet commander as you explore a mysteriously fallen empire. In this story-driven experience inspired by Dune and Foundation, each successful run will uncover the truth about the Empire... and yourself as well.
+    Crying Suns is a tactical rogue-lite that puts you in the role of a space fleet commander as you explore a mysteriously fallen empire. In this story rich experience inspired by Dune and Foundation, each successful run will uncover the truth about the Empire... and yourself as well.
   </description>
 
   <history>
