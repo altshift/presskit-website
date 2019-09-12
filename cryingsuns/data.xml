@@ -43,17 +43,23 @@
     </partner>
 </partners>
 
-    <release-dates>
-    <release-date>September 2019</release-date>
+  <release-dates>
+    <release-date>Steam / GoG: September 19th 2019</release-date>
+    <release-date>iPad: TBA</release-date>
   </release-dates>
 
   <platforms>
     <platform>
       <name> Steam</name>
-        <link>https://store.steampowered.com/app/873940/Crying_Suns/</link>
-	  <name> iPad</name>
-      <!--<link>http://www.cryingsuns.com/</link>-->
+      <link>https://store.steampowered.com/app/873940/Crying_Suns/</link>
     </platform>
+    <platform>
+      <name> GoG</name>
+      <link>https://www.gog.com/game/crying_suns</link>
+    </platform>
+    <platform>
+	  <name> iPad</name>
+	</platform>
   </platforms>
 
   <prices>
@@ -98,13 +104,12 @@ But you must leave Gehenna now.... for time has almost run out.
 
   <trailers>
     <trailer>
-      <name>Kickstarter Trailer</name>
-      <youtube>An317hx2LQA</youtube>
+      <name>Teaser</name>
+      <youtube>nYB-iycTOFE</youtube>
     </trailer>
   </trailers>
 
   <widgets>
-    
     <steam>873940</steam>
     <!-- <itch>27992</itch>
     <humble>crying-suns</humble>
