@@ -59,19 +59,21 @@
   </platform>
   <platform>
     <name>iOS (iPhone + iPad)</name>
+    <link>https://apps.apple.com/us/app/id1511788295</link>
   </platform>
   <platform>
     <name>Android</name>
+    <link>https://play.google.com/store/apps/details?id=com.altshift.cryingsuns</link>
   </platform>
 </platforms>
   
 <prices>
   <price>
-    <currency>Windows / macOS</currency>
+    <currency>Windows / macOS:</currency>
     <value>20,99€ / $24.99</value>
   </price>
   <price>
-    <currency>iOS / Android</currency>
+    <currency>iOS / Android:</currency>
     <value>9,99€ / $8.99</value>
   </price>
 </prices>
