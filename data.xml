@@ -18,10 +18,10 @@
   For your products' `data.xml`, [refer to the product documentation](../product/).
 
   <hr>
--->
+  -->
 
-<!-- Don't forget to set your XML header correctly. -->
-<?xml version="1.0" encoding="utf-8"?>
+  <!-- Don't forget to set your XML header correctly. -->
+  <?xml version="1.0" encoding="utf-8"?>
 
 <!--
   Use a `<company>` tag for your main `data.xml` file. **It will be the root page of your presskit.**
@@ -78,8 +78,8 @@
   <!-- The description is a simple short block to describe your company or studio. Be brief. -->
   <description>
     Alt Shift is an indie game studio located in the sunny South of France, in the city of Montpellier. 
-	We design and develop videogames for PC, Mac and mobile platforms.
-	We also help other companies to create sexy web and mobile app using gamification methods.
+    We design and develop videogames for PC, Mac and mobile platforms.
+    We also help other companies to create sexy web and mobile app using gamification methods.
   </description>
 
   <!--
@@ -103,13 +103,13 @@
   <histories>
     <history>
       <header>2010 - 2012: Birth and research program </header>
-	  <text> Research and development on new MMORPG server technologies. Design and development of the geosocial game project: Besyde - Mask of Harmony.</text>
+      <text> Research and development on new MMORPG server technologies. Design and development of the geosocial game project: Besyde - Mask of Harmony.</text>
     </history>
     <history>
       <header>2013 - 2016: "Serious" web and mobile app projects</header>
       <text>Consulting, design and development of web / mobile games and applications for various types of clients, from start-ups to large companies and institutions. Few examples: EDF (Ekosmart), Sud de France Développement (WineHub / Foodhub / ConnecSud), ENEO (BiodivGo), ComWatt, Institut Montpellier Management, Acrétion, etc.</text>
     </history>
-	<history>
+    <history>
       <header>2016 - 2018: Back into the game</header>
       <text>Design and development of the mobile game Not Not - A brain buster, released in May 2017. Design and development of Crying Suns, soon available (September 2019).</text>
     </history>
@@ -132,10 +132,6 @@
     <trailer>
       <name>Few images of our mobile game Not Not, played by more than 10 million players: (If you want to enhance your brain skills, this game is for you)</name>
       <youtube>LZX031iaxFc</youtube>    
-	</trailer>
-    <trailer>	
-	<name>One of our serious games, Biodiv Go, a geolocation-based collaborative game, for the start-up company ENEO:</name>
-      <youtube>MWUdTuQ9N_A</youtube>
     </trailer>
   </trailers>
 
@@ -190,9 +186,9 @@
       <link>https://twitter.com/bobburg</link>
     </additional>
   </additionals>
- -->
+-->
 
-  <!-- ## Team & Contacts -->
+<!-- ## Team & Contacts -->
 
   <!--
     This is for your people.
@@ -222,7 +218,7 @@
       <person>Mathias BAGLIONI</person>
       <role>Associate, UX/UI designer, Developer</role>
     </credit>
-	<credit>
+    <credit>
       <person>Christophe SAUVEUR</person>
       <role>Developer</role>
     </credit>
@@ -230,27 +226,27 @@
       <person>Bertrand MARGOGNE</person>
       <role>Developer</role>
     </credit>
-	<credit>
+    <credit>
       <person>Uriel LACROIX</person>
       <role>Graphist and 2D Animator</role>
     </credit>
-	<credit>
+    <credit>
       <person>Louis-Julien BERTHE</person>
       <role>Graphist and 2D Animator</role>
     </credit>
-	<credit>
+    <credit>
       <person>Caroline IMBERT</person>
       <role>Communication</role>
     </credit>
-	<credit>
+    <credit>
       <person>Aymeric SCHWARTZ</person>
       <role>Musician and sound designer</role>
     </credit>
-	<credit>
+    <credit>
       <person>François MALAVIEILLE</person>
       <role>Founder, The Medic</role>
     </credit>
-	<credit>
+    <credit>
       <person>Clément CARON</person>
       <role>Associate, IT Consultant</role>
     </credit>
